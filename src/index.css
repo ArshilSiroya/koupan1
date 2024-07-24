@@ -1,0 +1,41 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* @font-face {
+  font-family: 'Metropolis';
+  src: url('/src/assets/fonts/Metropolis-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+} */
+@font-face {
+  font-family: 'Metropolis';
+  src: url('/src/assets/fonts/Metropolis-SemiBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Metropolis';
+  src: url('/src/assets/fonts/Metropolis-Medium.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Metropolis';
+  src: url('/src/assets/fonts/Metropolis-Light.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Metropolis';
+}
